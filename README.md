@@ -18,16 +18,42 @@ This app lets you:
 - **Teaching Assistant Agent** → Generates exercises and example problems.
 
 ---
-
 ## 📦 Installation
+
 ```bash
-# Clone the repository
-git clone https://github.com/YourUser/Health_Agentt.git
-cd Health_Agentt
+git clone https://github.com/YourUser/teaching_agent.git
+cd teaching_agent
 
-# Create virtual environment
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
 pip install -r requirements.txt
+
+
+🔑 API Keys
+You need API keys for:
+
+Google Gemini API (Google Cloud Console)
+
+SerpAPI (https://serpapi.com/)
+
+Enter these keys in the app sidebar.
+
+▶️ Usage
+Run the app with:
+
+bash
+Copier le code
+streamlit run teaching_agent.py
+Open the browser, input your keys and a topic, then run the agents.
+
+🛠 Tech Stack
+Python
+
+Streamlit
+
+Agno Agents
+
+Google Gemini API
+
+SerpAPI
